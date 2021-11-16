@@ -1,19 +1,19 @@
 export class Student {
-  constructor(private _name: string, private _id: number) {}
+  constructor(private _club: string, private _committee: number) {}
 
-  public get name(): string {
-    return this._name;
+  public get club(): string {
+    return this._club;
   }
 
-  public set name(name: string) {
-    this._name = name;
+  public set club(club: string) {
+    this._club = club;
   }
 
-  public get id(): number {
-    return this._id;
+  public get committee(): number {
+    return this._committee;
   }
 
-  public set id(id: number) {
-    this._id = id;
+  public set committee(committee: number) {
+    this._committee = committee;
   }
 }
