@@ -1,19 +1,19 @@
 export class Student {
-  constructor(private _name: string, private _id: number) {}
+  constructor(private _firstName: string, private _gender: number) {}
 
   public get name(): string {
-    return this._name;
+    return this._firstName;
   }
 
   public set name(name: string) {
-    this._name = name;
+    this._firstName = name;
   }
 
   public get id(): number {
-    return this._id;
+    return this._gender;
   }
 
   public set id(id: number) {
-    this._id = id;
+    this._gender = id;
   }
 }
